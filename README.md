@@ -15,7 +15,8 @@ will use this file path to extract the relative path of the file you wish to com
 In your `.vimrc` you can specifiy the full path to your local project directory and create
 a mapping for the remote compile command as follows:
 
-	let g:remote_compile_project_dir="/path/to/project
+	let g:remote_compile_project_dir="/path/to/project"
+	
 	nnoremap <leader>co :RemoteCompile<cr>
 
 Installation
